@@ -3,6 +3,6 @@
   "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
   "ticker": "SRN",
   "homepage": "https://www.adasrn.com",
-  "extended": "https://sayshar.github.io/srn-mainnet.extended-metadata.json"
+  "extended": "https://sayshar.github.io/srn-mainnet.extended-metadata.json",
+  "verification": "79ae161c712f3232ac"
 }
-79ae161c712f3232ac

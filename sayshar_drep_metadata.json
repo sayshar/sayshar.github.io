@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:update-uri"
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Sayshar Ram Nair - DRep",
+    "abstract": "Hi. I'm Sayshar, a long-time Cardano SPO who has been around since March 2021. I have been helping the ARM-powered SPO community through the Armada Alliance by providing statically-built binaries for SPOs and cardano users who need cardano-node, cardano-cli and more for their ARM-powered devices.",
+    "motivations": "I have been a long-time believer in the Cardano project. I have dedicated time and resources to helping the Cardano community where I can as I believe Cardano has one of the soundest approach to the blockchain concept which transcends payment settlements.",
+    "rationale": "May Cardano's technological excellence continue.",
+    "paymentAddress": "addr1v95f4kg4n3w7ddf380sy49hdhanyp8ujzwjtuamcucz38kqyswz9p",
+    "givenName": "Sayshar Ram Nair",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/sayshar/sayshar.github.io/refs/heads/main/Sayshar_Cambridge.JPG",
+      "sha256": "d6a295b78c9aee10b16e8246146644e0d2011c98b915b8829f75f5ed59fdb9fd"
+    },
+    "objectives": "I find a way to build statically-linked binaries for Cardano SPOs, users and developers who use ARM devices. I study potential issues that arise during the binary building process and provide mitigations to ensure the final outcome is ready for anyone with a linux-based ARM device.",
+    "qualifications": "Cardano Stakepool Operator, CFD Simulation Engineer with a PhD in Heat Transfer, tinkerer of computer hardware and software",
+    "references": [
+      {
+        "@type": "Identity",
+        "label": "LinkedIn",
+        "uri": "https://www.linkedin.com/in/sayshar-nair"
+      },
+      {
+        "@type": "Link",
+        "label": "X",
+        "uri": "https://twitter.com/ADASRN1"
+      },
+      {
+        "@type": "Link",
+        "label": "Facebook",
+        "uri": "https://fb.me/ADASRN1"
+      },
+      {
+        "@type": "Link",
+        "label": "Cardano Binaries for ARM",
+        "uri": "https://github.com/armada-alliance/cardano-node-binaries"
+      }
+    ],
+    "comment": "Hi. I'm Sayshar, a long-time Cardano SPO who has been around since March 2021. I have been helping the ARM-powered SPO community through the Armada Alliance by providing statically-built binaries for SPOs and cardano users who need cardano-node, cardano-cli and more for their ARM-powered devices.",
+    "externalUpdates": [
+      {
+        "title": "Github",
+        "uri": "https://github.com/sayshar/sayshar.github.io"
+      }
+    ]
+  },
+  "authors": []
+}
